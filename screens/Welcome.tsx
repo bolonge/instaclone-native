@@ -1,7 +1,8 @@
 import React from "react";
 import { Text, View, TouchableOpacity } from "react-native";
+import { Props } from "../types";
 
-export default function Welcome({ navigation }) {
+export default function Welcome({ navigation }: Props) {
   return (
     <View>
       <Text>Welcome</Text>
